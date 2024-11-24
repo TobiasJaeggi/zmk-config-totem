@@ -1,19 +1,25 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
+#    - name: zmkfirmware
+#      url-base: https://github.com/zmkfirmware
+#    - name: urob
+#      url-base: https://github.com/urob
     - name: joelspadin
       url-base: https://github.com/joelspadin/
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
+#    - name: zmk
+#      remote: zmkfirmware
+#      revision: main
+#      import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: studio/keymap-subsystem
       import: app/west.yml
-    - name: zmk-helpers
-      remote: urob
-      revision: main
+#    - name: zmk-helpers
+#      remote: urob
+#      revision: main
     - name: zmk-locales
       remote: joelspadin
       revision: main
