@@ -42,7 +42,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <34 35>;
+            key-positions = <36 33>;
             layers = <0>;
             timeout-ms = <70>;
         };
