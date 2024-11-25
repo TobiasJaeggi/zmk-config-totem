@@ -37,6 +37,14 @@
             bindings = <&kt CAPSLOCK>;
             key-positions = <20 31>;
             layers = <0>;
+            timeout-ms = <70>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+            layers = <0>;
+            timeout-ms = <70>;
         };
     };
 
