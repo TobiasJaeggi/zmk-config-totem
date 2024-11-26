@@ -55,8 +55,8 @@
             label = "base";
             bindings = <
                 &kp Q              &kp W  &kp E         &kp R          &kp T    &kp Y  &mt DE_U_UMLAUT U  &kp I         &mt DE_O_UMLAUT O  &kp P
-                &mt DE_A_UMLAUT A  &kp S  &kp D         &kp F          &kp G    &kp H  &kp J              &kp K         &kp L              &kp INSERT
-&kp LEFT_SHIFT  &kp Z              &kp X  &kp C         &kp V          &kp B    &kp N  &kp M              &kp DE_COMMA  &kp DE_PERIOD      &kp ESCAPE  &kp RSHFT
+                &mt DE_A_UMLAUT A  &kp S  &kp D         &kp F          &kp G    &kp H  &kp J              &kp K         &kp L              &mt RIGHT_GUI INS
+&kp LEFT_SHIFT  &kp Z              &kp X  &kp C         &kp V          &kp B    &kp N  &kp M              &kp DE_COMMA  &kp DE_PERIOD      &kp ESCAPE         &kp RSHFT
                                           &kp LEFT_ALT  &kp BACKSPACE  &mo 1    &mo 2  &kp SPACE          &kp RCTRL
             >;
         };
@@ -64,8 +64,8 @@
         left {
             label = "left";
             bindings = <
-        &kp PRINTSCREEN  &kp HOME  &kp UP_ARROW  &kp END          &kp PAGE_UP      &kp RIGHT_GUI    &kp KP_N7  &kp KP_N8  &kp KP_N9  &kt KP_NUMLOCK
-        &none            &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp ENTER        &kp KP_N4  &kp KP_N5  &kp KP_N6  &kt SCROLLLOCK
+        &kp PRINTSCREEN  &kp HOME  &kp UP_ARROW  &kp END          &kp PAGE_UP      &kp SCROLLLOCK   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kt KP_NUMLOCK
+        &none            &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp ENTER        &kp KP_N4  &kp KP_N5  &kp KP_N6  &kt RIGHT_GUI
 &trans  &none            &none     &none         &none            &none            &kp KP_NUMBER_0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &to 0           &trans
                                    &trans        &kp BACKSPACE    &trans           &trans           &kp TAB    &trans
             >;
