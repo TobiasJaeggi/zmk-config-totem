@@ -1,3 +1,8 @@
+# This fork adds
+- [zmk-tri-state](https://github.com/dhruvinsh/zmk-tri-state) for single key alt-tab. See [#1351](https://github.com/zmkfirmware/zmk/pull/1351).
+- [zmk-locales](https://github.com/joelspadin/zmk-locales) for swiss keyboard support.
+- my keymap
+____
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
