@@ -1,6 +1,6 @@
 # This fork adds
-- [zmk-tri-state](https://github.com/dhruvinsh/zmk-tri-state) for single key alt-tab. See [#1351](https://github.com/zmkfirmware/zmk/pull/1351).
-- [zmk-locales](https://github.com/joelspadin/zmk-locales) for swiss keyboard support.
+- [zmk-tri-state](https://github.com/dhruvinsh/zmk-tri-state) for single key alt-tab, which uses [#1366](https://github.com/zmkfirmware/zmk/pull/1366) by [Nick Conway](https://github.com/nickconway)
+- [zmk-locales](https://github.com/joelspadin/zmk-locales) for swiss keyboard support
 - my keymap
 ____
 <picture>
