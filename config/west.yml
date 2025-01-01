@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/joelspadin
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,6 +18,9 @@ manifest:
       revision: main
     - name: zmk-tri-state
       remote: dhruvinsh
+      revision: main
+    - name: zmk-dongle-display-view
+      remote: mctechnology17
       revision: main
   self:
     path: config
