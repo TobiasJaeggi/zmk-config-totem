@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/dhruvinsh
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,6 +23,8 @@ manifest:
       revision: main
     - name: zmk-dongle-display-view
       remote: mctechnology17
+    - name: zmk-helpers
+      remote: urob
       revision: main
   self:
     path: config
